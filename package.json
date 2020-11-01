@@ -1,0 +1,41 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cezaraugusto/get-version-from-package.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "name": "get-version-from-package",
+  "version": "1.0.0",
+  "description": "Gets you a given version from a given npm package.",
+  "author": {
+    "name": "Cezar Augusto",
+    "email": "boss@cezaraugusto.net",
+    "url": "https://cezaraugusto.net"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "module.js"
+  ],
+  "keywords": [
+    "npm",
+    "package",
+    "module",
+    "version",
+    "npm package",
+    "npm package version",
+    "package",
+    "package version",
+    "npm version"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
