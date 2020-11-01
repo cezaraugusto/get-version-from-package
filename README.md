@@ -5,10 +5,11 @@
 ## Usage
 
 ```js
-const packageVersion = require('get-version-from-package')
+const getVersionFromPackage = require('get-version-from-package')
 
 (async () => {
   const typeScriptVersions = await getVersionFromPackage('typescript')
+
   console.log(typeScriptVersions)
   // {
   //   latest: '4.0.5',
@@ -19,7 +20,9 @@ const packageVersion = require('get-version-from-package')
   //   'tag-for-publishing-older-releases': '3.6.5',
   //   dev: '3.9.4'
   // }
+
   const { latest, next, beta } = await getVersionFromPackage('typescript')
+
   console.log('Latest version', latest) // 5.3.2
   console.log('Next version', next) // 5.0.0-rc.6
   console.log('Beta version', beta) // 4.1.0-beta
