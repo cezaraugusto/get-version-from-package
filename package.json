@@ -8,6 +8,7 @@
     "node": ">=10"
   },
   "name": "get-version-from-package",
+  "main": "module.js",
   "version": "0.1.0",
   "description": "Gets you a given version from a given npm package.",
   "author": {
