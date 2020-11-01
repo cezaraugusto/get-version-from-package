@@ -8,7 +8,7 @@
     "node": ">=10"
   },
   "name": "get-version-from-package",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Gets you a given version from a given npm package.",
   "author": {
     "name": "Cezar Augusto",
